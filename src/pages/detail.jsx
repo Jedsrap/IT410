@@ -14,10 +14,10 @@ function Detail() {
                 </Col>
             </Row>
             <Row>
-                <Col md={6}>
+                <Col md={12}>
                     <DonationDetail />
                 </Col>
-                <Col md={6}>
+                <Col md={12}>
                     <DonationForm />
                 </Col>
             </Row>

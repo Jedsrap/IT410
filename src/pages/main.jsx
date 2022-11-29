@@ -11,7 +11,7 @@ function Main() {
                     <Header />
                 </Col>
             </Row>
-            <Row>
+            <Row className="content-section">
                 <List />
             </Row>
         </Container>

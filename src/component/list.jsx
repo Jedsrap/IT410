@@ -9,12 +9,12 @@ function List() {
             {
                 data.map(items =>
                     <Col>
-                        <Card style={{ width: '18rem' }}>
-                            {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
+                        <Card>
+                            <Card.Img variant="top" src={`/pic/${items.image}`} />
                             <Card.Body>
                                 <Card.Title>{items.name}</Card.Title>
                                 <Card.Text>
-                                    {items.description}
+                                    {items.intro}
                                 </Card.Text>
                                 <Link to={`/detail/${items.id}`}>
                                     <Button variant="primary">see more</Button>
