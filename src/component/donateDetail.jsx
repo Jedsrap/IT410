@@ -16,9 +16,6 @@ function DonationDetail() {
             <p>
                 {dataDetail[0].description}
             </p>
-            <p>
-                {dataDetail[0].total}
-            </p>
         </>
     );
 }

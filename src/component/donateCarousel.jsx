@@ -7,38 +7,36 @@ function DonateCarousel() {
       <Carousel.Item>
         <img
           className="d-block carousel-img"
-          src="/pic/pic1.jpg"
+          src="/pic/banner.png"
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>ร่วมพิทักษ์เด็กกับพวกเรา</h3>
+          <p>ร่วมกันดูแล ปกป้อง คุ้มครองเด็กให้เติบโตขึ้นอยู่ในสังคมอย่างปลอดภัยและมีความสุข ช่วยเหลือและคุ้มครองเด็ก ส่งเสริมสิทธิเด็ก สร้างสังคมที่ดีสำหรับเด็ก</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block carousel-img"
-          src="/pic/pic3.jpg"
+          src="/pic/banner1.png"
           alt="Second slide"
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>โรงพยาบาล</h3>
+          <p>หนึ่งหัวใจ สู่ชีวิตใหม่" รวมสมทบทุนให้กับโรงพยาบาล</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block carousel-img"
-          src="/pic/pic4.jpg"
+          src="/pic/banner2.png"
           alt="Third slide"
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+          <h3>ร่วมช่วยเหลือสัตว์</h3>
+          <p>ผู้มีจิตเมตตาที่มองเห็นว่า ชีวิตสัตว์นั้น มีคุณค่าแก่ความช่วยเหลือ</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

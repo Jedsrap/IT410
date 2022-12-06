@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Header from "../component/header";
 import List from "../component/list";
 import DonateCarousel from "../component/donateCarousel";
+import Footer from "../component/footer";
 
 function Main() {
     return (
@@ -20,6 +21,7 @@ function Main() {
             <Row className="content-section">
                 <List />
             </Row>
+            <Footer/>
         </Container>
     );
 }

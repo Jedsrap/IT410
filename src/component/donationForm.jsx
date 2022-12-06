@@ -49,9 +49,15 @@ function DonationForm() {
                     <Form.Text className="text-muted">
                     </Form.Text>
                 </Form.Group>
+                <Form.Group className="mb-3" controlId="formBasicName">
+                    <Form.Label>เบอร์โทรศัพท์</Form.Label>
+                    <Form.Control type="text" placeholder="" />
+                    <Form.Text className="text-muted">
+                    </Form.Text>
+                </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicDonate">
                     <Form.Label>จำนวน</Form.Label>
-                    <Form.Control type="text" placeholder="ขั้นตํ่า 200 บาท" onChange={(e) => handleChangeValue(e)} />
+                    <Form.Control type="text" placeholder="ขั้นตํ่า 10 บาท" onChange={(e) => handleChangeValue(e)} />
                     <Form.Text className="text-muted">
                     </Form.Text>
                 </Form.Group>
