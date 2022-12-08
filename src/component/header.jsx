@@ -7,7 +7,6 @@ function Header() {
             <Container>
                 <Navbar.Brand href="/">Main</Navbar.Brand>
                 <Nav className="me-auto">
-                    <Nav.Link href="/aboutus">About us</Nav.Link>
                 </Nav>
             </Container>
         </Navbar>

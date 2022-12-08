@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import DonationDetail from "../component/donateDetail";
 import DonationForm from "../component/donationForm";
 import Header from "../component/header";
-import List from "../component/list";
 
 function Detail() {
     return (

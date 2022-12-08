@@ -4,7 +4,7 @@ import data from "../utils/data.json";
 
 function DonationDetail() {
     let { donationId } = useParams();
-    const [dataDetail, setDatadetail] = useState(data.filter(items => items.id === donationId));
+    const [dataDetail] = useState(data.filter(items => items.id === donationId));
 
 
     return (
